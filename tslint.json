@@ -1,0 +1,29 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:latest",
+    "tslint-react"
+  ],
+  "jsRules": {},
+  "rules": {
+    "member-access": [true, "no-public"],
+    "prefer-template": false,
+    "whitespace": [true, "check-module"],
+    "no-consecutive-blank-lines": true,
+    "indent": [true, "spaces", 2],
+    "ordered-imports": false,
+    "quotemark": [true, "single", "jsx-double"],
+    "no-console": {
+      "severity": "warning",
+      "options": [
+          "debug",
+          "info",
+          "log",
+          "time",
+          "timeEnd",
+          "trace"
+      ]
+  }
+  },
+  "rulesDirectory": []
+}
