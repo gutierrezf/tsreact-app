@@ -6,8 +6,8 @@ export class Home extends React.Component<IHelloProps, {}> {
   render() {
     return (
     <h1>
-        Hello from {this.props.compiler} and {this.props.framework}!
-      </h1>
+      Hello from {this.props.compiler} and {this.props.framework}!
+    </h1>
     );
   }
 }
